@@ -1,0 +1,12 @@
+.idea
+src
+
+node_modules
+README.md
+.gitattributes
+.gitignore
+jest.config.js
+package-lock.json
+tsconfig.cjs.json
+tsconfig.esm.json
+tsconfig.json
