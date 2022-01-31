@@ -1,6 +1,7 @@
 .idea
 src
 
+utils
 node_modules
 README.md
 .gitattributes
