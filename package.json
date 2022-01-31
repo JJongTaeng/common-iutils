@@ -1,6 +1,6 @@
 {
   "name": "common-iutils",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "simple HTMLElement util library",
   "main": "dist/cjs/utils/index.js",
   "module": "dist/esm/utils/index.js",
