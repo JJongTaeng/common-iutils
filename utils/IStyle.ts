@@ -202,6 +202,16 @@ export default class IStyle implements IStyleInterface {
     return this;
   }
 
+  fontWeight(value: string) {
+    this.$element.style.fontWeight = value;
+    return this;
+  }
+
+  fontSize(value: string) {
+    this.$element.style.fontSize = value;
+    return this;
+  }
+
   setStyle(value: string) {
     this.$element.setAttribute('style', value);
     return this;
