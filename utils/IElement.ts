@@ -5,6 +5,7 @@ interface IEInterface {
   appendChild(node: Node): this;
   setParent(node: HTMLElement): this;
   setTextContent(text: string): this;
+  innerHTML(text: string): this;
 }
 
 type CustomTag = 'inte-button' | 'inte-input' | 'inte-row' | 'inte-column';
@@ -48,6 +49,11 @@ export default class IElement<T extends HTMLElement> implements IEInterface {
 
   setTextContent(text: string) {
     this.$element.textContent = text;
+    return this;
+  }
+
+  innerHTML(text: string) {
+    this.$element.innerHTML = text;
     return this;
   }
 };
