@@ -212,6 +212,31 @@ export default class IStyle implements IStyleInterface {
     return this;
   }
 
+  backgroundImage(value: string) {
+    this.$element.style.backgroundImage = value;
+    return this;
+  }
+
+  backgroundPosition(value: string) {
+    this.$element.style.backgroundPosition = value;
+    return this;
+  }
+
+  backgroundRepeat(value: string) {
+    this.$element.style.backgroundRepeat = value;
+    return this;
+  }
+
+  backgroundSize(value: string) {
+    this.$element.style.backgroundSize = value;
+    return this;
+  }
+
+  backgroundColor(value: string) {
+    this.$element.style.backgroundColor = value;
+    return this;
+  }
+
   setStyle(value: string) {
     this.$element.setAttribute('style', value);
     return this;
